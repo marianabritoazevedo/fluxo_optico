@@ -112,11 +112,11 @@ def initialize():
 Por fim, teremos a função `main`, cujo código encontra-se ao final. Basicamente, seu fluxo de funcionamento ocorre da seguinte forma:
 - Inicialização das variáveis auxiliares e do vídeo;
 - Seleção dos 4 pontos de vértices da placa pelo usuário;
-- Cálculo do fluxo óptico a partir dos pontos selecionados
-- Detecção do retângulo das imagens finais
-- Desenho do retângulo da área referente à placa
-- Salvar frame ampliado com região da placa no diretório
-- Voltar ao passo do cálculo do fluxo óptico para os novos pontos
+- Cálculo do fluxo óptico a partir dos pontos selecionados;
+- Detecção do retângulo das imagens finais;
+- Desenho do retângulo da área referente à placa;
+- Salvar frame ampliado com região da placa no diretório;
+- Voltar ao passo do cálculo do fluxo óptico para os novos pontos.
 
 ```
 if __name__ == '__main__':
