@@ -57,7 +57,7 @@ $\nabla I \cdot \vec{v} = -I_{t}$, onde $\nabla I = \begin{bmatrix} I_x\\ I_y \e
 
 Entretanto, irão existir muitas incógnitas para uma única equação, de modo que a equação de movimento é aplicada para uma vizinhança em torno de um ponto, considerando uma janela de tamanho `n`. 
 
-$\begin{bmatrix} I_x(p_1) & I_y(p_1) \\ I_x(p_2) & I_y(p_2) \\ ... & ... \\ I_x(p_{n^2}) & I_y(p_{n^2})\end{bmatrix} \begin{bmatrix} \Delta x\\ \Delta y \end{bmatrix} = - \begin{bmatrix} I_t(p_1)\\ I_t(p_2) \\ ... \\ I_t(p_{n^2})\end{bmatrix}$
+$\begin{bmatrix} I_x(p_1) & I_y(p_1) \\ I_x(p_2) & I_y(p_2) \\ ... & ... \\ I_x(p_{n^2}) & I_y(p_{n^2})\end{bmatrix}$ $\begin{bmatrix} \Delta x\\ \Delta y \end{bmatrix}$ = $- \begin{bmatrix} I_t(p_1)\\ I_t(p_2) \\ ... \\ I_t(p_{n^2})\end{bmatrix}$
 
 Teremos um sistema como o apresentado acima, e este sistema pode ser resolvido com o método dos mínimos quadrados ($min||A\vec{x} - \vec{b}||^2$).
 
